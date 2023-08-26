@@ -210,7 +210,6 @@
     padding: .625rem 1.25rem;
     border-radius: 20px;
     background-color: #009AD8;
-    color: white;
     position: absolute;
     top: 6px;
     right: 5px;
@@ -239,6 +238,11 @@
  .footer p{
     padding-left: 6.9rem;
     font-size: .875rem;
+ }
+
+ .footer button a{
+    text-decoration: none;
+    color: white;
  }
 /* <====================FOOTER===========================> */
 

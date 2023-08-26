@@ -28,6 +28,8 @@ const afterTomorrowCondition = document.getElementById('afterTomorrowCondition')
 
 
 const searchCountry = document.getElementById('searchCountry');
+const empty = document.getElementById('empty')
+const subscribButton = document.getElementById('subscribButton');
 let weatherData;
 
 
@@ -83,6 +85,9 @@ function dispalyAfterTomorrow(){
     getStartAPP(searchCountry.value);
   })
 
+  subscribButton.addEventListener('click' , function(){
+    empty.value = "";
+  })  
 
 //todo:<===============START APP FUNCTION===========>
 async function getStartAPP(country){
